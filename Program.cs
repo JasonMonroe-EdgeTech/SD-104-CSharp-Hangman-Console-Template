@@ -10,6 +10,7 @@ namespace Hangman_Console_Template
     {
         static void Main(string[] args)
         {
+            //display all gallows
             for(int n = 0; n < 11; n++)
             {
                 DrawGallow(n);
